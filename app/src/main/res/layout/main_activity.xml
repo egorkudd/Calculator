@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:background="@color/bgColor"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="@string/input"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/vars"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:background="@color/bgColor"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="@string/input"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:background="@color/bgColor"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="@string/output"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/ButtonLine">
+
+            <TextView
+                android:id="@+id/btn_ac"
+                style="@style/OperationButton"
+                android:text="@string/ac" />
+
+            <TextView
+                android:id="@+id/btn_open_br"
+                style="@style/OperationButton"
+                android:text="@string/open_br" />
+
+            <TextView
+                android:id="@+id/btn_close_br"
+                style="@style/OperationButton"
+                android:text="@string/close_br" />
+
+            <TextView
+                android:id="@+id/btn_div"
+                style="@style/OperationButton"
+                android:text="@string/div" />
+
+            <TextView
+                android:id="@+id/btn_ln"
+                style="@style/OperationButton"
+                android:text="@string/ln" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/ButtonLine">
+
+            <TextView
+                android:id="@+id/btn_7"
+                style="@style/NumberButton"
+                android:text="@string/_7" />
+
+            <TextView
+                android:id="@+id/btn_8"
+                style="@style/NumberButton"
+                android:text="@string/_8" />
+
+            <TextView
+                android:id="@+id/btn_9"
+                style="@style/NumberButton"
+                android:text="@string/_9" />
+
+            <TextView
+                android:id="@+id/btn_mul"
+                style="@style/OperationButton"
+                android:text="@string/mul" />
+
+            <TextView
+                android:id="@+id/btn_sqrt"
+                style="@style/OperationButton"
+                android:text="@string/sqrt" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/ButtonLine">
+
+            <TextView
+                android:id="@+id/btn_4"
+                style="@style/NumberButton"
+                android:text="@string/_4" />
+
+            <TextView
+                android:id="@+id/btn_5"
+                style="@style/NumberButton"
+                android:text="@string/_5" />
+
+            <TextView
+                android:id="@+id/btn_6"
+                style="@style/NumberButton"
+                android:text="@string/_6" />
+
+            <TextView
+                android:id="@+id/btn_sum"
+                style="@style/OperationButton"
+                android:text="@string/sum" />
+
+            <TextView
+                android:id="@+id/btn_x"
+                style="@style/OperationButton"
+                android:text="@string/x" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/ButtonLine">
+
+            <TextView
+                android:id="@+id/btn_1"
+                style="@style/NumberButton"
+                android:text="@string/_1" />
+
+            <TextView
+                android:id="@+id/btn_2"
+                style="@style/NumberButton"
+                android:text="@string/_2" />
+
+            <TextView
+                android:id="@+id/btn_3"
+                style="@style/NumberButton"
+                android:text="@string/_3" />
+
+            <TextView
+                android:id="@+id/btn_sub"
+                style="@style/OperationButton"
+                android:text="@string/sub" />
+
+            <TextView
+                android:id="@+id/btn_y"
+                style="@style/OperationButton"
+                android:text="@string/y" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/ButtonLine">
+
+            <TextView
+                android:id="@+id/btn_point"
+                style="@style/NumberButton"
+                android:text="@string/point" />
+
+            <TextView
+                android:id="@+id/btn_0"
+                style="@style/NumberButton"
+                android:text="@string/_0" />
+
+            <TextView
+                android:id="@+id/btn_c"
+                style="@style/NumberButton"
+                android:text="@string/c" />
+
+            <TextView
+                android:id="@+id/btn_equal"
+                style="@style/OperationButton"
+                android:text="@string/equal" />
+
+            <TextView
+                android:id="@+id/btn_z"
+                style="@style/OperationButton"
+                android:text="@string/z" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
